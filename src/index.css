@@ -1070,3 +1070,146 @@ body {
   font-size: 14px;
   text-align: center;
 }
+
+/* RESPONSIVE MOBILE */
+@media (max-width: 768px) {
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    padding: 0 15px;
+  }
+
+  .card {
+    width: 100%;
+    min-height: auto;
+  }
+
+  .card img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+  }
+
+  .card-body {
+    padding: 12px;
+  }
+
+  .card-body h3 {
+    font-size: 20px;
+  }
+
+  .card-body p {
+    font-size: 14px;
+  }
+
+  .btn-card button {
+    width: 100%;
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .btn-semua {
+    width: 80%;
+    font-size: 16px;
+  }
+
+  .resep h2 {
+    font-size: 42px;
+    text-align: center;
+  }
+
+}
+
+/* MOBILE RESPONSIVE */
+@media (max-width: 768px) {
+
+  /* NAVBAR */
+  .navbar {
+    padding: 15px 20px;
+    flex-wrap: wrap;
+  }
+
+  .logo {
+    font-size: 28px;
+  }
+
+  .nav-links {
+    gap: 15px;
+    font-size: 14px;
+  }
+
+  /* KATALOG */
+  .katalog {
+    flex-direction: column;
+    padding: 20px 15px;
+  }
+
+  .sidebar {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .katalog-content {
+    width: 100%;
+  }
+
+  .katalog-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+
+  .katalog-header h2 {
+    font-size: 32px;
+    line-height: 1.2;
+  }
+
+  .search-box {
+    width: 100%;
+  }
+
+  .search-box input {
+    width: 100%;
+  }
+
+  .katalog-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+
+  .card {
+    width: 100%;
+    min-height: auto;
+  }
+
+  .card img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+  }
+
+  .card-body h3 {
+    font-size: 20px;
+  }
+
+  .card-body p {
+    font-size: 14px;
+  }
+
+  .btn-card button {
+    width: 100%;
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  /* FOOTER */
+  footer {
+    text-align: center;
+    padding: 20px 15px;
+    font-size: 14px;
+  }
+
+}
